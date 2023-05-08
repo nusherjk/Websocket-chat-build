@@ -1,0 +1,39 @@
+.flex {
+  display: flex;
+}
+
+.title {
+  font-family: "Trebuchet MS", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+}
+
+.chatsection {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  width: 60%;
+  padding: 10px;
+  border: solid black 2px;
+  border-radius: 10px;
+}
+.chatsection .sender {
+  align-self: flex-start;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: gray;
+  color: white;
+}
+.chatsection .reciver {
+  align-self: flex-end;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: lime;
+  color: white;
+}
+
+/*# sourceMappingURL=output.css.map */

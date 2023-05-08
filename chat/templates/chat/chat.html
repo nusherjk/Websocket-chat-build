@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chat app</title>
+	 <link href="{% static 'css/output.css' %}" rel="stylesheet"  />
+</head>
+<body>
+	
+
+
+	<div class="main">
+		<div class="container">
+			
+			<div class="title">
+				<h1>Chat Room Name.</h1>
+			</div>
+
+			<div class="chatsection">
+				<div class="sender">message</div>
+				<div class="reciver">message</div>
+
+			</div>
+
+			<form class="flex" action="">
+				
+				<input type="text" placeholder="Write your message" />
+				<button type="submit" > Send </button>
+			</form>
+
+
+		</div>
+	</div>
+</body>
+</html>
